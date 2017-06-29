@@ -9,7 +9,7 @@ main {
     color: #000;
     text-decoration: none; }
     main a:hover {
-      color: #1C9963;
+      color: #188355;
       text-decoration: none; }
   main h1, main #sidebar h3, #sidebar main h3 {
     font-weight: bolder;
@@ -45,6 +45,13 @@ main {
     display: inline;
     vertical-align: center;
     margin: auto; }
+  main #pdfSkills {
+    display: none; }
+  main #pdfTitle {
+    font-size: 1em;
+    text-align: center;
+    display: none;
+    width: 100%; }
 
 #sidebar {
   font-family: pt sans, sans-serif;
@@ -53,7 +60,7 @@ main {
   bottom: 0;
   left: 0;
   width: 290px;
-  padding: 140px 10px 0 25px;
+  padding: 145px 10px 0 25px;
   font-size: 12px;
   background: #fff;
   z-index: 1; }
@@ -61,7 +68,7 @@ main {
     color: #000;
     text-decoration: none; }
     #sidebar a:hover {
-      color: #1C9963;
+      color: #188355;
       text-decoration: none; }
   #sidebar ul li {
     list-style: none; }
@@ -100,7 +107,6 @@ main {
   #sidebar .row {
     vertical-align: top;
     font-size: 1em;
-    content-align: middle;
     margin: auto;
     padding-left: 25px; }
     #sidebar .row .col-sm-1 {
@@ -116,7 +122,11 @@ main {
       font-style: none;
       font-weight: bolder;
       font-size: 1.1em;
-      color: #1C9963; }
+      color: #188355; }
+  #sidebar #genPDF:hover {
+    color: #188355;
+    text-decoration: none;
+    cursor: pointer; }
 
 .projects {
   margin: 20px;
@@ -142,7 +152,30 @@ main {
   margin: 25px;
   margin-bottom: 40px; }
   .projtoggle:hover {
-    color: #1C9963;
+    color: #188355;
     cursor: pointer; }
+
+@media print {
+  #sidebar {
+    display: none; }
+
+  .row {
+    display: none; }
+
+  .projtoggle {
+    display: none; }
+
+  #experience {
+    display: none; }
+
+  main {
+    margin: 20px 20px; }
+    main #pdfSkills {
+      display: inline-block; }
+    main #pdfTitle {
+      display: inline-block; }
+
+  #education {
+    page-break-after: always; } }
 
 /*# sourceMappingURL=styles.css.map */

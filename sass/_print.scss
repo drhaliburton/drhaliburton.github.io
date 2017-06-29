@@ -1,0 +1,27 @@
+@media print {
+  #sidebar {
+    display: none;
+  }
+  .row {
+    display: none;
+  }
+  .projtoggle {
+    display: none;
+  }
+  #experience {
+    display: none;
+  }
+  main {
+    margin: 20px 20px;
+    #pdfSkills {
+    display: inline-block;
+    }
+    #pdfTitle {
+    display: inline-block;
+    }
+  }
+
+  #education {
+    page-break-after: always;
+    }
+}

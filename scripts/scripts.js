@@ -54,4 +54,15 @@ $(function() {
         } 
   });
 
+  $('#genPDF').on('click', function(){
+    console.log('clicked');
+    createPDF();
+  });
+
 });
+
+function createPDF() {
+     window.print();
+}
+
+

@@ -1,4 +1,5 @@
-$green: #1C9963;
+$green: darken(#1C9963, 5%);
+$blue: darken(#219FD4, 10%);
 
 main {
   font-family: pt sans, sans-serif;
@@ -57,5 +58,14 @@ main {
       vertical-align: center;
       margin: auto;
     }
+  }
+  #pdfSkills {
+    display: none;
+  }
+  #pdfTitle {
+    font-size: 1em;
+    text-align: center;
+    display: none;
+    width: 100%;
   }
 }
