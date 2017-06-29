@@ -1,3 +1,5 @@
+$green: #1C9963;
+
 main {
   font-family: pt sans, sans-serif;
   font-size: 15px;
@@ -9,7 +11,7 @@ main {
 	color: #000;
 	text-decoration: none;
     &:hover {
-    color: #1C9963;
+    color: $green;
     text-decoration: none;
     }
   }
@@ -24,7 +26,6 @@ main {
     padding-bottom: 10px;
     line-height: 35px;
     color: #000;
-    white-space: nowrap;
     &:after {
       content: "";
       margin-left: 10px;
@@ -48,28 +49,8 @@ main {
   .date {
     font-style: italic;
   }
-  .projects{
-    margin: 20px;
-    margin-left: 20px;
-    display: block;
-    img {
-      padding-left: 15px;
-      padding-bottom: 40px;
-      width: 80%;
-    }
-  }
-  .projtoggle{
-    font-size: 1em;
-    font-weight: bold;
-    margin: 25px;
-    margin-bottom: 40px;
-    &:hover{
-      color: #1C9963;
-      cursor: pointer;
-    }
-  }      
   #experience {
-    .col-md-4 {
+    .col-md-5 {
       line-height: 25px;
       padding: 2px;
       display: inline;

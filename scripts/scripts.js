@@ -4,11 +4,11 @@ $(function() {
     var plus = "+";
     var minus = "-";
     console.log($(this));
-    $(this).next().slideToggle();
+    $(this).next().slideToggle('slow');
     if ($(this).text() === "◇ Projects & Work Samples") {
       $(this).text("◆ Projects & Work Samples");
     } else {
-     $(this).text("◇ Projects & Work Samples");
+      $(this).text("◇ Projects & Work Samples");
     }
   })
 
