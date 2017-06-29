@@ -1,0 +1,32 @@
+.projects{
+    margin: 20px;
+    margin-left: 20px;
+    display: block;
+    .col-md-4 {
+      margin: auto;
+    }
+    .col-md-8 {
+      padding-bottom: 40px;
+    }
+    img {
+      opacity: 0.85;
+      padding: 10px;
+      width: 97.5%;
+      transition: width 0.4s;
+      &:hover {
+        opacity: 1;
+        width: 99%;
+        cursor: pointer;
+      }
+    }
+  }
+  .projtoggle{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 25px;
+    margin-bottom: 40px;
+    &:hover{
+      color: #1C9963;
+      cursor: pointer;
+    }
+  }      
