@@ -1,148 +1,68 @@
-main {
-  font-family: pt sans, sans-serif;
-  font-size: 15px;
-  color: #444;
-  margin: 30px 150px 50px 320px;
-  text-align: left;
-  line-height: 20px; }
-  main a {
-    color: #000;
-    text-decoration: none; }
-    main a:hover {
-      color: #1C9963;
-      text-decoration: none; }
-  main h1, main #sidebar h3, #sidebar main h3 {
-    font-weight: bolder;
-    font-size: 1.3em;
-    text-align: left;
-    overflow: hidden;
-    white-space: nowrap;
-    text-transform: uppercase;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    line-height: 35px;
-    color: #000; }
-    main h1:after, main #sidebar h3:after, #sidebar main h3:after {
-      content: "";
-      margin-left: 10px;
-      display: inline-block;
-      width: 100%;
-      vertical-align: middle;
-      border-bottom: 1px solid;
-      overflow: hidden;
-      justify-content: space-around; }
-  main h2, main h3 {
-    color: #000;
-    font-size: 2em;
-    font-weight: bolder; }
-  main h3 {
-    font-size: 1.1em; }
-  main .date {
-    font-style: italic; }
-  main #experience .col-md-5 {
-    line-height: 25px;
-    padding: 2px;
-    display: inline;
-    vertical-align: center;
-    margin: auto; }
+/*
+Error: Invalid CSS after "$green: #1C9963": expected "{", was ";"
+        on line 2 of sass/_main.scss
+        from line 1 of sass/styles.scss
 
-#sidebar {
-  font-family: pt sans, sans-serif;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 290px;
-  padding: 140px 10px 0 25px;
-  font-size: 12px;
-  background: #fff;
-  z-index: 1; }
-  #sidebar a {
-    color: #000;
-    text-decoration: none; }
-    #sidebar a:hover {
-      color: #1C9963;
-      text-decoration: none; }
-  #sidebar ul li {
-    list-style: none; }
-  #sidebar h1, #sidebar h3 {
-    color: #000;
-    font-size: 1.6em;
-    font-weight: bolder;
-    line-height: 0px;
-    text-transform: uppercase; }
-  #sidebar h2, #sidebar main h3, main #sidebar h3 {
-    color: #555;
-    font-size: 1.1em;
-    font-weight: normal;
-    margin-bottom: 30px; }
-  #sidebar h3 {
-    font-size: 130%;
-    text-align: left;
-    overflow: hidden;
-    white-space: nowrap;
-    text-transform: uppercase;
-    line-height: 35px; }
-    #sidebar h3:after {
-      content: "";
-      margin-left: 10px;
-      display: inline-block;
-      width: 100%;
-      vertical-align: middle;
-      border-bottom: 1px solid;
-      overflow: hidden;
-      justify-content: space-around; }
-  #sidebar img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 90%; }
-  #sidebar .row {
-    vertical-align: top;
-    font-size: 1em;
-    content-align: middle;
-    margin: auto;
-    padding-left: 25px; }
-    #sidebar .row .col-sm-1 {
-      display: inline;
-      padding: 13px 0px; }
-      #sidebar .row .col-sm-1 img {
-        width: 18px; }
-    #sidebar .row .col-sm-11 {
-      display: inline; }
-  #sidebar #skills {
-    padding-right: 10px; }
-    #sidebar #skills b {
-      font-style: none;
-      font-weight: bolder;
-      font-size: 1.1em;
-      color: #1C9963; }
+1: <<<<<<< HEAD
+2: $green: #1C9963;
+3: =======
+4: $green: darken(#1C9963, 5%);
+5: $blue: darken(#219FD4, 10%);
+6: >>>>>>> gh-pages
+7: 
 
-.projects {
-  margin: 20px;
-  margin-left: 20px;
-  display: block; }
-  .projects .col-md-4 {
-    margin: auto; }
-  .projects .col-md-8 {
-    padding-bottom: 40px; }
-  .projects img {
-    opacity: 0.85;
-    padding: 10px;
-    width: 97.5%;
-    transition: width 0.4s; }
-    .projects img:hover {
-      opacity: 1;
-      width: 99%;
-      cursor: pointer; }
-
-.projtoggle {
-  font-size: 1em;
-  font-weight: bold;
-  margin: 25px;
-  margin-bottom: 40px; }
-  .projtoggle:hover {
-    color: #1C9963;
-    cursor: pointer; }
-
-/*# sourceMappingURL=styles.css.map */
+Backtrace:
+sass/_main.scss:2
+sass/styles.scss:1
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/scss/parser.rb:658:in `ruleset'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/scss/parser.rb:684:in `block_child'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/scss/parser.rb:674:in `block_contents'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/scss/parser.rb:125:in `stylesheet'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/scss/parser.rb:41:in `parse'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/engine.rb:406:in `_to_tree'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/engine.rb:312:in `to_tree'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/stack.rb:88:in `block in with_import'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/stack.rb:88:in `with_import'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:325:in `visit_import'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/home/vagrant/.rvm/gems/ruby-2.3.3/gems/sass-3.4.24/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$green: #1C9963\": expected \"{\", was \";\"\A         on line 2 of sass/_main.scss\A         from line 1 of sass/styles.scss\A \A 1: <<<<<<< HEAD\A 2: $green: #1C9963;\A 3: =======\A 4: $green: darken(#1C9963, 5%);\A 5: $blue: darken(#219FD4, 10%);\A 6: >>>>>>> gh-pages\A 7: "; }

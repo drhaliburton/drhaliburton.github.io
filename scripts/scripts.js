@@ -54,4 +54,19 @@ $(function() {
         } 
   });
 
+<<<<<<< HEAD
 });
+=======
+  $('#genPDF').on('click', function(){
+    console.log('clicked');
+    createPDF();
+  });
+
+});
+
+function createPDF() {
+     window.print();
+}
+
+
+>>>>>>> gh-pages
