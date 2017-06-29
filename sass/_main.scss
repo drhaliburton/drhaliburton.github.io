@@ -1,0 +1,80 @@
+main {
+  font-family: pt sans, sans-serif;
+  font-size: 15px;
+	color: #444;
+  margin: 30px 150px 50px 320px;
+	text-align: left;
+	line-height: 20px;
+  a {
+	color: #000;
+	text-decoration: none;
+    &:hover {
+    color: #1C9963;
+    text-decoration: none;
+    }
+  }
+   h1 {
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    line-height: 35px;
+    color: #000;
+    white-space: nowrap;
+    &:after {
+      content: "";
+      margin-left: 10px;
+      display: inline-block;
+      width: 100%;
+      vertical-align: middle;
+      border-bottom: 1px solid;
+      overflow: hidden;
+      justify-content: space-around;
+    }
+  }
+  h2 {
+    color: #000;
+    font-size: 2em;
+    font-weight: bolder;
+  }
+  h3 {
+    @extend h2;
+    font-size: 1.1em;
+  }
+  .date {
+    font-style: italic;
+  }
+  .projects{
+    margin: 20px;
+    margin-left: 20px;
+    display: block;
+    img {
+      padding-left: 15px;
+      padding-bottom: 40px;
+      width: 80%;
+    }
+  }
+  .projtoggle{
+    font-size: 1em;
+    font-weight: bold;
+    margin: 25px;
+    margin-bottom: 40px;
+    &:hover{
+      color: #1C9963;
+      cursor: pointer;
+    }
+  }      
+  #experience {
+    .col-md-4 {
+      line-height: 25px;
+      padding: 2px;
+      display: inline;
+      vertical-align: center;
+      margin: auto;
+    }
+  }
+}

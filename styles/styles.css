@@ -1,0 +1,118 @@
+main {
+  font-family: pt sans, sans-serif;
+  font-size: 15px;
+  color: #444;
+  margin: 30px 150px 50px 320px;
+  text-align: left;
+  line-height: 20px; }
+  main a {
+    color: #000;
+    text-decoration: none; }
+    main a:hover {
+      color: #1C9963;
+      text-decoration: none; }
+  main h1 {
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    line-height: 35px;
+    color: #000;
+    white-space: nowrap; }
+    main h1:after {
+      content: "";
+      margin-left: 10px;
+      display: inline-block;
+      width: 100%;
+      vertical-align: middle;
+      border-bottom: 1px solid;
+      overflow: hidden;
+      justify-content: space-around; }
+  main h2, main h3, main #sidebar h3, #sidebar main h3 {
+    color: #000;
+    font-size: 2em;
+    font-weight: bolder; }
+  main h3 {
+    font-size: 1.1em; }
+  main .date {
+    font-style: italic; }
+  main .projects {
+    margin: 20px;
+    margin-left: 20px;
+    display: block; }
+    main .projects img {
+      padding-left: 15px;
+      padding-bottom: 40px;
+      width: 80%; }
+  main .projtoggle {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 25px;
+    margin-bottom: 40px; }
+    main .projtoggle:hover {
+      color: #1C9963;
+      cursor: pointer; }
+  main #experience .col-md-4 {
+    line-height: 25px;
+    padding: 2px;
+    display: inline;
+    vertical-align: center;
+    margin: auto; }
+
+#sidebar {
+  font-family: pt sans, sans-serif;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 290px;
+  padding: 160px 10px 0 25px;
+  font-size: 12px;
+  background: #fff;
+  z-index: 1; }
+  #sidebar a {
+    color: #000;
+    text-decoration: none; }
+    #sidebar a:hover {
+      color: #1C9963;
+      text-decoration: none; }
+  #sidebar h1 {
+    color: #000;
+    font-size: 1.6em;
+    font-weight: bolder;
+    line-height: 0px;
+    text-transform: uppercase; }
+  #sidebar h2, #sidebar h3 {
+    color: #555;
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-bottom: 30px; }
+  #sidebar h3 {
+    font-size: 80%; }
+  #sidebar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%; }
+  #sidebar .row {
+    vertical-align: top;
+    font-size: 1em;
+    content-align: middle;
+    margin: auto;
+    padding-left: 25px; }
+    #sidebar .row .col-sm-1 {
+      display: inline;
+      padding: 13px 0px; }
+      #sidebar .row .col-sm-1 img {
+        width: 18px; }
+    #sidebar .row .col-sm-11 {
+      display: inline; }
+
+.projects img {
+  width: 80%; }
+
+/*# sourceMappingURL=styles.css.map */
