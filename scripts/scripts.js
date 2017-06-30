@@ -5,10 +5,10 @@ $(function() {
     var minus = "-";
     console.log($(this));
     $(this).next().slideToggle('slow');
-    if ($(this).text() === "◇ Projects & Work Samples") {
-      $(this).text("◆ Projects & Work Samples");
-    } else {
+    if ($(this).text() === "◆ Projects & Work Samples") {
       $(this).text("◇ Projects & Work Samples");
+    } else {
+      $(this).text("◆ Projects & Work Samples");
     }
   })
 
