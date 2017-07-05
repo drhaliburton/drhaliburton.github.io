@@ -61,18 +61,19 @@
     width: 90%;
   }
   .row {
+    overflow: auto;
     vertical-align: top;
     font-size: 1em;
     margin: auto;
     padding-left: 25px;
-    .col-sm-1 {
+    .col-xs-1 {
       display: inline;
       padding: 13px 0px;
       img {
         width: 18px;
       }
     }
-    .col-sm-11 {
+    .col-xs-11 {
       display: inline;
     }
   }
@@ -93,4 +94,3 @@
     }
   }
 }
-
