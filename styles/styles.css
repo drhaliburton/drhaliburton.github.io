@@ -43,7 +43,6 @@ main {
     line-height: 25px;
     padding: 2px;
     display: inline;
-    vertical-align: center;
     margin: auto; }
   main #pdfSkills {
     display: none; }
@@ -180,7 +179,7 @@ main {
 
   #education {
     page-break-after: always; } }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
   #sidebar {
     display: none; }
 
@@ -201,7 +200,7 @@ main {
       display: inline-block;
       margin: 0px; }
       main #pdfTitle h2, main #pdfTitle h3 {
-        font-size: 1.5em;
+        font-size: 1.7em;
         margin: 10px 2px 4px; }
       main #pdfTitle h3 {
         font-size: .8em;
