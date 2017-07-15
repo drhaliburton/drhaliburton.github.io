@@ -52,6 +52,8 @@ main {
     text-align: center;
     display: none;
     width: 100%; }
+  main #mobileContact {
+    display: none; }
 
 #sidebar {
   font-family: pt sans, sans-serif;
@@ -178,5 +180,48 @@ main {
 
   #education {
     page-break-after: always; } }
+@media only screen and (max-width: 600px) {
+  #sidebar {
+    display: none; }
+
+  .row {
+    display: none; }
+
+  .projtoggle {
+    display: none; }
+
+  #experience {
+    display: none; }
+
+  main {
+    margin: 20px 20px; }
+    main #pdfSkills {
+      display: inline-block; }
+    main #pdfTitle {
+      display: inline-block;
+      margin: 0px; }
+      main #pdfTitle h2, main #pdfTitle h3 {
+        font-size: 1.5em;
+        margin: 10px 2px 4px; }
+      main #pdfTitle h3 {
+        font-size: .8em;
+        margin: 2px; }
+    main h1, main #sidebar h3, #sidebar main h3 {
+      margin-top: 5px; }
+
+  #animation {
+    width: 60%; }
+
+  #summary {
+    padding-top: 0px; }
+    #summary h1, #summary #sidebar h3, #sidebar #summary h3 {
+      margin-top: 0px; }
+
+  .mobile-icon {
+    width: 5%; }
+
+  #pdfSkills b {
+    font-weight: bolder;
+    color: #188355; } }
 
 /*# sourceMappingURL=styles.css.map */
