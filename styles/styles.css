@@ -158,6 +158,9 @@ main {
     cursor: pointer; }
 
 @media print {
+  #employment {
+    padding-top: 50px; }
+
   #sidebar {
     display: none; }
 
@@ -171,14 +174,30 @@ main {
     display: none; }
 
   main {
-    margin: 20px 20px; }
+    margin: 30px 20px; }
+    main h1, main #sidebar h3, #sidebar main h3 {
+      margin-top: 5px;
+      padding-top: 0px; }
     main #pdfSkills {
       display: inline-block; }
     main #pdfTitle {
+      font-size: 1.2em;
+      text-align: center;
       display: inline-block; }
-
-  #education {
-    page-break-after: always; } }
+      main #pdfTitle h2, main #pdfTitle h3 {
+        margin-top: 10px;
+        font-size: 1.7em; }
+      main #pdfTitle h3 {
+        font-size: 1em;
+        margin: 2px; }
+      main #pdfTitle .mobile-icon {
+        width: 5%; }
+      main #pdfTitle #animation {
+        display: none; }
+      main #pdfTitle #education {
+        page-break-after: always; }
+      main #pdfTitle a[href]:after {
+        content: none !important; } }
 @media only screen and (max-width: 780px) {
   #sidebar {
     display: none; }
@@ -206,7 +225,8 @@ main {
         font-size: .8em;
         margin: 2px; }
     main h1, main #sidebar h3, #sidebar main h3 {
-      margin-top: 5px; }
+      margin-top: 5px;
+      padding-top: 0px; }
 
   #animation {
     width: 60%; }
