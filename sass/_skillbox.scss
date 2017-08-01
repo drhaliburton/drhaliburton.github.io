@@ -9,13 +9,13 @@
       padding-bottom: 40px;
     }
     img {
-      opacity: 0.85;
-      padding: 10px;
-      width: 97.5%;
-      transition: width 0.4s;
+      opacity: 0.9;
+      padding: 5px;
+      width: 99.5%;
+      transition: width 0.3s;
       &:hover {
         opacity: 1;
-        width: 99%;
+        width: 100%;
         cursor: pointer;
       }
     }
@@ -29,4 +29,4 @@
       color: $green;
       cursor: pointer;
     }
-  }      
+  }
