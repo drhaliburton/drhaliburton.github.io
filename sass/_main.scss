@@ -51,11 +51,13 @@ main {
     font-style: italic;
   }
   #experience {
-    .col-md-5 {
+    .row {
       line-height: 25px;
-      padding: 2px;
-      display: inline;
-      margin: auto;
+      padding: 1px;
+      .col-md-6 {
+        padding-left: 21%;
+        margin-right: -14%;
+      }
     }
   }
   #pdfSkills {

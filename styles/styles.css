@@ -39,11 +39,12 @@ main {
     font-size: 1.1em; }
   main .date {
     font-style: italic; }
-  main #experience .col-md-5 {
+  main #experience .row {
     line-height: 25px;
-    padding: 2px;
-    display: inline;
-    margin: auto; }
+    padding: 1px; }
+    main #experience .row .col-md-6 {
+      padding-left: 21%;
+      margin-right: -14%; }
   main #pdfSkills {
     display: none; }
   main #pdfTitle {
