@@ -55,8 +55,8 @@ main {
       line-height: 25px;
       padding: 1px;
       .col-md-6 {
-        padding-left: 21%;
-        margin-right: -14%;
+        padding-left: 21% !important;
+        margin-right: -14% !important;
       }
     }
   }

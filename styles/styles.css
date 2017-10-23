@@ -43,8 +43,8 @@ main {
     line-height: 25px;
     padding: 1px; }
     main #experience .row .col-md-6 {
-      padding-left: 21%;
-      margin-right: -14%; }
+      padding-left: 21% !important;
+      margin-right: -14% !important; }
   main #pdfSkills {
     display: none; }
   main #pdfTitle {
