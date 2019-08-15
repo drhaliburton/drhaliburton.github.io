@@ -1,7 +1,6 @@
 const TerserPlugin = require('terser-webpack-plugin');
 const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin');
-
-const webpackPlugins = [ new VuetifyLoaderPlugin() ];
+const webpackPlugins = [new VuetifyLoaderPlugin()];
 
 if (process.env === 'production') webpackPlugins.push(new TerserPlugin());
 
@@ -11,14 +10,14 @@ module.exports = {
   assetsDir: './public',
   lintOnSave: true,
   productionSourceMap: true,
-  chainWebpack: () => {},
+  chainWebpack: () => { },
   configureWebpack: {
     plugins: webpackPlugins,
     module: {
       rules: [
         {
           test: /\.s?css$/,
-          use: [ 'postcss-loader' ],
+          use: ['postcss-loader'],
         },
       ],
     },
@@ -33,7 +32,7 @@ module.exports = {
     workboxPluginMode: 'InjectManifest',
     workboxOptions: {
       importWorkboxFrom: 'local',
-      include: [ /\.html$/, /\.css$/, /\.js$/ ],
+      include: [/\.html$/, /\.css$/, /\.js$/],
       swSrc: 'public/sw.js',
       maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
     },
@@ -56,7 +55,7 @@ module.exports = {
     https: false,
     hotOnly: false,
     proxy: null, // string | Object
-    before: app => {},
+    before: app => { },
   },
 
 };

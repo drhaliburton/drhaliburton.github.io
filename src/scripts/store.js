@@ -37,35 +37,35 @@ const $store = new Vuex.Store({
         projects: [
           {
             title: 'Local',
-            img: 'http://i.imgur.com/fdjigij.jpg',
+            img: 'local.jpg',
             url: 'https://github.com/drhaliburton/local',
             skills: 'React, Express, Node, Postgres, SASS, Google APIs.',
             content: 'A travel itinerary builder that allows you to plan your day based around tips from locals, drop recommendations into your itinerary and export them to Google maps and your calendar.',
           },
           {
             title: 'Jungle',
-            img: 'http://i.imgur.com/quiQfIC.png',
+            img: 'jungle.png',
             url: 'https://github.com/drhaliburton/jungle-rails',
             skills: 'Rails, Ruby, Postgres, Stripe, Bootstrap.',
             content: 'A mini e-commerce application where users can browse products, view/add reviews, add items to their card and checkout using Stripe.',
           },
           {
             title: 'Chatty',
-            img: 'http://i.imgur.com/o70Ae5d.png',
+            img: 'chatty.png',
             url: 'https://github.com/drhaliburton/Chatty',
             skills: 'React, Node, Webpacl, Babel.',
             content: 'A real-time chat app that allow users to send and receive messages/notifications, change their username and view the number of online users.',
           },
           {
             title: 'Fetch',
-            img: 'http://i.imgur.com/fkX6ulA.jpg',
+            img: 'fetch.jpg',
             url: 'https://github.com/drhaliburton/Fetch/',
             skills: 'Node, Express, Ajax, Postgres, jQuery, Bootstrap/Masonry.',
             content: 'A Pinterest-style resource wall where users can create accounts, add/edit new cards and favourite/filter/search all added resources.',
           },
           {
             title: 'Tweeter',
-            img: 'http://i.imgur.com/rgdNHVP.png',
+            img: 'tweeter.png',
             url: 'https://github.com/drhaliburton/tweetr',
             skills: 'Node, Express, MongoDB, jQuery.',
             content: 'A Twitter clone created to practice front-end styling and interactivity - users can add new tweets and view or favourite existing tweets.',
@@ -95,13 +95,13 @@ const $store = new Vuex.Store({
         projects: [
           {
             title: 'CMPNY',
-            img: 'https://i.imgur.com/SmtYIZ6.png',
+            img: 'cmpny.png',
             url: 'https://www.cmpny.com/plans',
             content: 'Adopted an existing codebase to re-design the pricing pages, updated branding to fit existing materials, provided SEO support and created a landing page using PHP to generate new leads.',
           },
           {
             title: 'Tea Runners',
-            img: 'https://i.imgur.com/rX3gOj4.jpg',
+            img: 'tearunners.jpg',
             url: 'http://www.tearunners.com/',
             content: 'Created a Analytics Dashboard from scratch using Vue.js, Node, MongoDB with hosting Heroku, which interacts with their e-commerce API to display upcoming expected shipments.',
           },
@@ -130,21 +130,21 @@ const $store = new Vuex.Store({
         projects: [
           {
             title: 'Project Management',
-            img: 'http://i.imgur.com/qc8cvSi.jpg',
-            url: 'https://www.lighthouselabs.ca/blog?author=Rebecca+Haliburton',
+            img: 'website.jpg',
+            url: 'http://www.lighthouselabs.ca/blog',
             skills: 'SEO, copywriting, digital campaigns, feature design.',
             content: 'Managed the website and application process in conjunction with the Development and Design teams. This included copywriting/SEO and wireframing new features for the custom-built CMS to automate marketing workflow and better analyse applicant data.',
           },
           {
             title: 'Online Coding Courses',
-            img: 'http://i.imgur.com/s8M3htA.png',
+            img: 'courses.png',
             url: 'http://www.lighthouse-labs.thinkific.com/',
             skills: 'Content creation, copywriting, digital marketing.',
             content: 'Created online courses using curriculum from HTML, CSS, JavaScript and iOS development workshops, gaining over 1500 registrants within a month of launching with ~4% conversion rate.',
           },
           {
             title: 'Events & Digital Marketing',
-            img: 'http://i.imgur.com/HxMuVSI.jpg',
+            img: 'html500.jpg',
             url: 'http://www.thehtml500.com/',
             skills: 'Event marketing, social media management, digital campaigns.',
             content: 'Was responsible for the promotion for countless tech-centric events, including workshops, meetups and hackathons. Most notably, I put in place a digital marketing strategy that resulted in over 7000 registrants for the HTML500.',
@@ -160,14 +160,14 @@ const $store = new Vuex.Store({
         projects: [
           {
             title: 'Sackville Snow Days',
-            img: 'http://i.imgur.com/eEzIwJ8.jpg',
+            img: 'snowdays.jpg',
             skills: 'Branding, event promotion, social media.',
             url: 'http://thechronicleherald.ca/bedfordsackvilleobserver/1428606-plans-for-sackville-snow-days-underway',
             content: 'Created the branding and promotion for community events. Results from the digital marketing campaigns saw an over 1,000% traffic increase to the SBA\'s website.',
           },
           {
             title: 'Member Communications',
-            img: 'http://i.imgur.com/ZRY60Fa.png',
+            img: 'newsletter.png',
             url: 'http://sackvillebusiness.com/newsletter/',
             skills: 'Creative writing, design, community engagement.',
             content: 'Designed and curated a monthly newsletter, contributed a monthly column to the Chronicle Herald and implemented social media promotion for the district.',
@@ -183,14 +183,14 @@ const $store = new Vuex.Store({
         projects: [
           {
             title: 'Fundraising Events',
-            img: 'http://i.imgur.com/NAxttg6.png',
+            img: 'fundraising.png',
             url: 'http://www.lainghouse.org/category/newsroom/blog.html',
             skills: 'Fundraising, event promotion.',
             content: 'Created design material and lead the promotion for upcoming donor campaigns and fundraising events, including the Laing House Masquerade Ball which raised over $250,000 for the Laing House Foundation.',
           },
           {
             title: 'Donor Communications',
-            img: 'http://i.imgur.com/paFwl3n.jpg',
+            img: 'report.jpg',
             url: 'http://www.lainghouse.org/newsroom/publications/community-reports.html',
             skills: 'Donor communications, graphic design, fundraising.',
             content: 'Designed fundraising content and donor outreach campaigns to tell impact stories, including the annual reports which highlighted donor impact on the organization and breakdown of financials.',

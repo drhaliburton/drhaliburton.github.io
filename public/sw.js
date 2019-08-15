@@ -71,6 +71,6 @@ if (workbox) {
     );
   });
 } else {
-  console.log(`Starling's offline mode is not available in your current browser.`);
+  console.log(`Offline mode is not available in your current browser.`);
 }
 /* eslint-enable no-undef, no-unused-vars, no-console */

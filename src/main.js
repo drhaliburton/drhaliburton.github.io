@@ -13,10 +13,7 @@ Vue.config.productionTip = false;
 Vuetify(Vue);
 
 Vue.filter('getImagePath', (imagePath) => {
-  if (imagePath.includes('svg') || imagePath.includes('png')) {
-    return require('@/assets/img/' + imagePath);
-  }
-  return imagePath;
+  return require('@/assets/' + imagePath);
 });
 
 new Vue({

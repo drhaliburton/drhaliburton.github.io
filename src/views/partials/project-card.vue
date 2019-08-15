@@ -2,7 +2,7 @@
 <template>
   <v-card class="ma-3 text-left" max-width="350px">
     <v-img
-      :src="item.img"
+      :src="item.img | getImagePath"
       max-height="220px"
       gradient="to bottom, rgba(0,0,0,.05), rgba(0,0,0,.1)"
     />
