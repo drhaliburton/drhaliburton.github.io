@@ -1,0 +1,71 @@
+{
+  "name": "rebsume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Resume for Rebecca Haliburton, Web Development & Product Design",
+  "license": "MIT",
+  "author": {
+    "name": "Rebecca Haliburton",
+    "email": "haliburtonre@gmail.com"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint:all": "yarn lint:js --fix && yarn lint:scss --fix",
+    "lint:js": "vue-cli-service lint",
+    "lint:scss": "stylelint '**/*.scss' --syntax scss"
+  },
+  "gitHooks": {
+    "pre-commit": "yarn lint:all"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "es6-promise": "^4.2.6",
+    "image-webpack-loader": "^5.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "material-design-icons-iconfont": "^4.0.4",
+    "register-service-worker": "^1.5.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.5.0",
+    "vuetify-loader": "^1.2.1",
+    "vuex": "^3.0.1",
+    "webpack": "^4.23.0",
+    "webpack-preprocessor": "^0.1.12",
+    "workbox-sw": "^3.6.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-plugin-pwa": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "autoprefixer": "^8.6.2",
+    "babel-eslint": "^10.0.1",
+    "css-loader": "^2.1.0",
+    "cssnano": "^3.10.0",
+    "eslint": "^5.7.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-vue": "^4.7.1",
+    "node-sass": "^4.9.3",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.23.1",
+    "stylelint": "^9.6.0",
+    "stylelint-config-concentric": "^2.0.2",
+    "stylelint-config-standard": "^18.2.0",
+    "terser-webpack-plugin": "^1.2.1",
+    "vue-template-compiler": "^2.5.17",
+    "xvfb": "^0.2.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 versions",
+    "not ie <= 10"
+  ]
+}

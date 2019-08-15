@@ -1,0 +1,41 @@
+// DESKTOP VIEW CSS
+
+@media (min-width: 850px) {
+  .contact-container {
+    display: none;
+  }
+
+  .v-content__wrap {
+    padding: 30px 60px 30px 25px;
+  }
+}
+
+@media print {
+  @page {
+    margin: 20px;
+  }
+
+  .v-navigation-drawer {
+    transform: translateX(-300px) !important;
+  }
+
+  .v-content {
+    padding: 0 !important;
+  }
+
+  .projects-container {
+    margin-bottom: 50px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .contact-container {
+    img {
+      display: none;
+    }
+  }
+
+  .mt-4 {
+    margin-top: 20px !important;
+  }
+}
