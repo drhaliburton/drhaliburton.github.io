@@ -19,6 +19,11 @@ module.exports = {
           test: /\.s?css$/,
           use: ['postcss-loader'],
         },
+        {
+          test: /\.(jpg|png|gif|svg)$/,
+          loader: 'image-webpack-loader',
+          enforce: 'pre',
+        }
       ],
     },
     devtool: 'eval',

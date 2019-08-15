@@ -24,6 +24,7 @@
     "babel-loader": "^8.0.4",
     "babel-polyfill": "^6.26.0",
     "es6-promise": "^4.2.6",
+    "image-webpack-loader": "^5.0.0",
     "isomorphic-fetch": "^2.2.1",
     "material-design-icons-iconfont": "^4.0.4",
     "register-service-worker": "^1.5.2",

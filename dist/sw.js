@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.6d445a8250524c39bc0072f5f0457b37.js", "/workbox-v3.6.3/workbox-sw.js");
+importScripts("/precache-manifest.342c8db1d2c0736a3458c6323d76780f.js", "/workbox-v3.6.3/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/workbox-v3.6.3"});
 /* Service Worker methods */
 /* global importScripts Promise workbox */
@@ -73,7 +73,7 @@ if (workbox) {
     );
   });
 } else {
-  console.log(`Starling's offline mode is not available in your current browser.`);
+  console.log(`Offline mode is not available in your current browser.`);
 }
 /* eslint-enable no-undef, no-unused-vars, no-console */
 
